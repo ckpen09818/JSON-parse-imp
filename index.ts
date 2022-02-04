@@ -245,13 +245,3 @@ export function parseJSON(str: string) {
     console.log(snippet)
   }
 }
-
-let a = {
-  a: 'abc\\n',
-  b: {
-    a: 'test',
-    b: true,
-    c: null,
-  },
-  c: [{ a: 123, b: 0.1135, c: -1.22616, d: 1351e-5, f: 123e6 }, 7789, '\\r', '\ua32b'],
-}
